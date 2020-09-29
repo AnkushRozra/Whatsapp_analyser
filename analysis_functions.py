@@ -416,11 +416,11 @@ def average_words_per_message_per_contact(df, save_path, sort=False, plot=False)
     return df_
 
 
-def media_per_contact(df, save_path, sort=False, plot=False):
-    df_ = this_word_per_contact(
-        df, check_word=["<Media", "omitted>"], save_path=save_path, sort=sort, plot=plot
-    )
-    return df_
+# def media_per_contact(df, save_path, sort=False, plot=False):
+#     df_ = this_word_per_contact(
+#         df, check_word=["<Media", "omitted>"], save_path=save_path, sort=sort, plot=plot
+#     )
+#     return df_
 
 
 def emojis_per_msg_per_contact(df, save_path, sort=False, plot=False):

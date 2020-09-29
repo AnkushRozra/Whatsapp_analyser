@@ -30,7 +30,7 @@ def create_folder(args):
     )
     if not os.path.exists(path):
         os.mkdir(path)
-    return (path, args.save_as)
+    return path, args.save_as
 
 
 def extract_emojis(s):
@@ -138,7 +138,7 @@ def plot_time_circle(time, count, title, save_path):
     plt.figimage(small, 5, f.bbox.ymax - 1.4 * height)
     plt.title(title, fontdict={"fontsize": 20})
     # plt.figtext(0.3,0.3,  "Hello World !")
-    footer_text = "www.aqeel-anwar.com/AnalyzeTheChat"
+    footer_text = " "
     plt.figtext(0.25, 0.98, footer_text)
 
     name = save_path[0] + "/" + title + "." + save_path[1]
@@ -197,7 +197,7 @@ def plot_bar(x, y, title, save_path, max_limit=0):
     height = small.shape[0]
     f.figimage(small, 5, f.bbox.ymax - 1.4 * height)
     name = save_path[0] + "/" + title + "." + save_path[1]
-    footer_text = "www.aqeel-anwar.com/AnalyzeTheChat"
+    footer_text = " "
     plt.figtext(0.25, 0.98, footer_text)
     print(name)
     # plt_bytes = buf.getvalue()
@@ -207,6 +207,6 @@ def plot_bar(x, y, title, save_path, max_limit=0):
 
 
 def display_AnalyzeTheChat():
-    with open("display.txt", "r") as file:
+    with open("display.txt", "r", encoding="utf8") as file:
         for line in file:
             print(line, end="")
