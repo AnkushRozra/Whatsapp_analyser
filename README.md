@@ -1,4 +1,4 @@
-# AnalyzeTheChat
+# AAnalyzeTheChat
  Python based WhatsApp chat analyzer
 
 # Demo
