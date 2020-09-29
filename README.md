@@ -1,10 +1,8 @@
-
-![alt](images/logo.png)
 # AnalyzeTheChat
  Python based WhatsApp chat analyzer
 
 # Demo
-The online demo can be found [here](https://sites.google.com/view/aqeel-anwar/analyzethechat)
+The online demo will be avaiable soon
 
 
 # How to Install AnalyzeTheChat?
@@ -14,7 +12,7 @@ details on creating a virtual environment can be found [here](https://towardsdat
 ## Clone the repository
 Once you have created the virtual environment, activate it and use the following command.
 ```
-git clone https://github.com/aqeelanwar/AnalyzeTheChat.git
+https://github.com/AnkushRozra/Whatsapp_analyser.git
 ```
 
 ## Install required packages
@@ -33,7 +31,6 @@ Export the WhatsApp chat you like to analyze using the following steps
 5. Click Without Media
 6. Save the generated .txt file where it is accessible
 
-![export-whatsapp-chat](images/export-whatsapp-chat.png)
 
 ## Execute the code
 ```
@@ -54,14 +51,3 @@ python main.py --path theoffice.txt --keyword 'jello' --save_as pdf
 
 ## View the results
 The results can be viewed in the results folder.
-
-
-# Example
-![results](images/example.png)
-
-# Reference
-If you this repository or any part of it, please make a proper reference to
-
-```
-AnalyzeTheChat: https://github.com/aqeelanwar/AnalyzeTheChat
-```
