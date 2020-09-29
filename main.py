@@ -1,7 +1,3 @@
-# Author: aqeelanwar
-# Created: 13 June,2020, 9:42 PM
-# Email: aqeel.anwar@gatech.edu
-
 
 from analysis_functions import *
 import argparse
